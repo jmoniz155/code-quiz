@@ -2,7 +2,7 @@
 
 
 ## Description
-[Description](#description)
+[Description]
 This is where I use my knowledge in javascript/jQuery to build this Code Quiz game. It is played be answering acouple basic questions. If you take too long the timer runs out and the game is over. You can play mulitple time if you choose.
 
 
@@ -10,7 +10,7 @@ This game is a small game works by answering acouple questions correctly before 
 
 
 ## Table of Contents
-[tableOfContents](#tableOfContents)
+[Table Of Contents]
 
 [Description]
 [googleLinks]
@@ -20,23 +20,21 @@ This game is a small game works by answering acouple questions correctly before 
 
 
 ## Study Material
-[googleLinks](#googleLinks)
+[googleLinks]
 <a>mozilla:<a href="#">https://developer.mozilla.org/en-US/docs/Web/CSS/visibility
 <a>google:<a href="#">https://www.w3schools.com/tags/tag_span.asp
-<a>google:<a href="#">
-<a>google:<a href="#">
-<a>google:<a href="#">
-<a>google:<a href="#">
-<a>google:<a href="#">
+<a>google:<a href="#">https://www.w3schools.com/jsref/met_win_setinterval.asp
+<a>google:<a href="#">https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_breakout_game_Phaser/Buttons
+<a>google:<a href="#">https://stackoverflow.com/questions/66488667/javascript-how-do-i-save-the-score-and-initials-once-the-page-is-refreshed-and
+
 
 
 ## Features
-[Features](#features)
+[Features]
 This password generator was built with HTML 5, CSS 3 and JavaScript
 
 ## Links
-(#Repository)
 [Repository](https://github.com/jmoniz155/code-quiz)
-(#Live Website)
+
 [Live Website](https://jmoniz155.github.io/code-quiz/)
 

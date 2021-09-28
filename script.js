@@ -73,7 +73,7 @@ function startTimer() {
 
 
 //THEN the game is over
-
+//display the end
 
 //WHEN the game is over
 // The init function is called when the page loads
