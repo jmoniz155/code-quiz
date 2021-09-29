@@ -4,8 +4,6 @@
     <title>Code Quiz Game</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- BOOTSTRAP LINKS -->
-   
     <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
@@ -21,34 +19,34 @@
         <!-- ID start-screen -->
         <div id="start-screen" class="start">
           <h1>Coding Quiz Challenge</h1>
+          <!--put message in a p tag give it a class and if you want in row or column that you want to display-->
           <p class="row">
-            Answer the questions and go for the TOP SCORE!!! NOTE: Incorrect
-            answers will penalize your score/time by ten seconds! If the time
-            runs out, you lose!!!
+            Answer the questions correctly!!! NOTE: Incorrect
+            answers and the time runs out will penalize your score.
           </p>
-          <!-- ID start -->
-          <button class="custom-btn btn-6" id="start">
+          <!-- ID start-->
+          <button class="custom-btn" id="start">
             <span> START </span>
           </button>
         </div>
 
-        <!-- ID questions -->
+        <!-- ID questions class hide-->
         <div id="questions" class="hide">
           <!-- ID question-title -->
           <h2 id="question-title"></h2>
-          <!-- ID choices -->
+          <!-- ID choices class choices -->
           <div id="choices" class="choices"></div>
         </div>
-        <!-- ID end-screen -->
+        <!-- ID end-screen class hide-->
         <div id="end-screen" class="hide">
           <h2>All done!</h2>
           <!-- ID final-score -->
           <p>Your final score is <span id="final-score"></span>.</p>
           <p>
-            <!-- ID initials -->
+            <!-- ID initials input type id initials and max initial characters -->
             Enter initials: <input type="text" id="initials" max="3" />
             <!-- ID submit -->
-            <button class="custom-btn btn-6" id="submit">Submit</button>
+            <button class="custom-btn" id="submit">Submit</button>
           </p>
         </div>
         <!-- ID feedback -->

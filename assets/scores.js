@@ -8,16 +8,16 @@ function printHighscores() {
   });
 
   highscores.forEach(function(score) {
-    // create li tag for each high score
+    // create li tag for each high score initials + score
     var liTag = document.createElement("li");
     liTag.textContent = score.initials + " - " + score.score;
 
-    // display on page
+    // display on page  high score
     var olEl = document.getElementById("highscores");
     olEl.appendChild(liTag);
   });
 }
-
+  //clear high score remove item and reloada
 function clearHighscores() {
   window.localStorage.removeItem("highscores");
   window.location.reload();
@@ -25,5 +25,5 @@ function clearHighscores() {
 
 document.getElementById("clear").onclick = clearHighscores;
 
-// run function when page loads
+// run function when page loads print high score
 printHighscores();

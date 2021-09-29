@@ -7,15 +7,15 @@ var timerId;
 // variables to reference DOM elements
 // ID questions
 var question = document.getElementById("questions");
-// ID time
+// ID time timerElement
 var timerElement = document.getElementById("time");
-// ID choices
+// ID choices Element
 var choicesEl = document.getElementById("choices");
-// ID submit
+// ID submit button or btn
 var submitBtn = document.getElementById("submit");
-// ID start
+// ID start button
 var startButton = document.getElementById("start");
-// ID initials
+// Give ID initials an element
 var initialsEl = document.getElementById("initials");
 // ID feedback
 var feedbackEl = document.getElementById("feedback");
@@ -23,6 +23,7 @@ var feedbackEl = document.getElementById("feedback");
 // sound effects
 var sfxRight = new Audio("../sfx/project.wav");
 var sfxWrong = new Audio("../sfx/Project_3.wav");
+
 
 function startGame() {
   // hide start screen
@@ -74,7 +75,7 @@ function getQuestion() {
 
 function questionClick() {
   // check if user guessed wrong by comparing this.value (the user's choice that they clicked on) and the "answer" from questions.js
-  // if not equal (!==), then you lose 15 seconds, if time is less than zero it gets set to 0
+  // if not equal then you lose 15 seconds, if time is less than zero it gets set to 0
   if (this.value !== questions[currentQuestionIndex].answer) {
     // penalize time
     time -= 15;
@@ -86,13 +87,9 @@ function questionClick() {
     // display new time on page
     timerElement.textContent = time;
 
-    // play "wrong" sound effect
-    sfxWrong.play();
-    feedbackEl.setAttribute("class", "feedback");
-    feedbackEl.textContent = "Wrong!";
+   
   } else {
-    // else is when answer is CORRECT and we play the sfx.Right sounds
-    sfxRight.play();
+   
     // feedbackEl.setAttribute("class", "feedback backGroundFBRight");
     feedbackEl.textContent = "Correct!";
   }
@@ -181,5 +178,3 @@ submitBtn.onclick = saveHighscore;
 
 // user clicks button to start quiz
 startButton.onclick = startGame;
-
-initialsEl.onkeyup = checkForEnter;

@@ -1,15 +1,16 @@
 // list of all questions, choices, and answers
 var questions = [
   {
-    title: "Commonly used data types DO NOT include:",
+    title: "what is not a javascript value:",
     choices: ["strings", "booleans", "alerts", "numbers"],
     answer: "alerts"
   },
   {
-    title: "The condition in an if / else statement is enclosed within ____.",
+    title: "The if / else statement is enclosed within ____.",
     choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
     answer: "parentheses"
   },
+  //copy this question but change to html csss or javasvript questions 
   {
     title: "Who was the first president of the United States of America?",
     choices: [
@@ -29,7 +30,7 @@ var questions = [
   },
   {
     title:
-      "A very useful tool used during development and debugging for printing content to the debugger is:",
+      "A very useful tool used during debugging for printing content is.",
     choices: ["JavaScript", "terminal / bash", "for loops", "console.log"],
     answer: "console.log"
   }
