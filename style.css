@@ -88,7 +88,7 @@ main {
   }
 }
 
-@media screen and (max-width: 504px) {
+@media screen and (max-width: 500px) {
   .large-font {
     font-size: 2em;
   }
@@ -99,9 +99,6 @@ main {
     
   }
 
-  /* .timer { */
-    /* height: 200px; */
-  /* } */
 }
 
 body {
