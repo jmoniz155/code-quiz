@@ -9,7 +9,7 @@ This is a small game that that gives you 6 multiple choice questions that you mu
 
 ## Credits
 * [Credits]
-I would like to give credit to my Varsity Tutor for helping me understand how to use javascript building a password generator.  I have learned so much in this assignment. Really taking the time to explain how to read and understand the acceptance criteria to generate code and using google.
+I would like to give credit to my Varsity Tutor for helping me understand how to use javascript building a code-quiz.  I have learned so much on this assignment. Really taking the time to explain how to read and understand the acceptance criteria to generate code and using google.
 
 ## Table of Contents
 [Description]
